@@ -13,7 +13,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: scheele/udacity-frontend:local
+      - image: satyapb2002/udagram-microservice:frontend 
         name: frontend
         imagePullPolicy: Always          
         ports:
