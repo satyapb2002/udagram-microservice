@@ -3,16 +3,16 @@ services:
   reverseproxy:
     build:
       context: .
-    image: scheele/reverseproxy 
+    image: satyapb2002/reverseproxy 
   backend_user:
     build:
       context: ../../udacity-c3-restapi-user
-    image: satyapb2002/udagram-microservice:user 
+    image: satyapb2002/udagram-microservice-user 
   backend_feed:
     build:
       context: ../../udacity-c3-restapi-feed  
-    image:  satyapb2002/udagram-microservice:feed    
+    image:  satyapb2002/udagram-microservice-feed    
   frontend:
     build:
       context: ../../udacity-c3-frontend  
-    image: satyapb2002/udagram-microservice:frontend
+    image: satyapb2002/udagram-microservice-frontend

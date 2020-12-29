@@ -15,7 +15,7 @@ spec:
         app: backend-feed
     spec:
       containers:
-      - image: satyapb2002/udagram-microservice:feed 
+      - image: satyapb2002/udagram-microservice-feed 
         name: backend-feed
         imagePullPolicy: Always  
         resources:

@@ -15,7 +15,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: scheele/reverseproxy
+      - image: satyapb2002/reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:

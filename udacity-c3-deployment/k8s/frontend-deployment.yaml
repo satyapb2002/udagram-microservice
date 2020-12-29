@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: satyapb2002/udagram-microservice:frontend 
+      - image: satyapb2002/udagram-microservice-frontend 
         name: frontend
         imagePullPolicy: Always          
         ports:

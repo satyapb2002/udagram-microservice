@@ -15,7 +15,7 @@ spec:
         app: backend-user
     spec:
       containers:
-      - image: satyapb2002/udagram-microservice:user 
+      - image: satyapb2002/udagram-microservice-user 
         name: backend-user 
         imagePullPolicy: Always  
         resources:
